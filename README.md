@@ -6,4 +6,6 @@ Here is the video: https://github.com/user-attachments/assets/b8602bd1-a735-4bb6
 
 And here is the link to the page: https://ubiquitous-granita-e00ba0.netlify.app
 
+Here is the new link to the page : https://67cf53266251a115a14a11a6--incandescent-llama-615fe5.netlify.app/
+
 Deploys from GitHub.
