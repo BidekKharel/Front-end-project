@@ -34,7 +34,14 @@ ul {
     height: auto;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
 /*Navbar */
+
 
 .navbar {
     background: #fff;
@@ -53,7 +60,7 @@ ul {
  }
 
  .navbar .main-menu ul {
-    display: flex;
+    justify-content: center;
  }
 
  .navbar ul li a {
@@ -81,12 +88,14 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    width: 100%;
 }
 
 .container-sm {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+    width: 100%;
 }
 
 
@@ -458,3 +467,180 @@ ul {
 }
 
 
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 960px) {
+
+    .testimonials-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .testimonial-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-topic {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .price-row {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer .card {
+        padding: 15px;
+    }
+
+    .footer h4 {
+        font-size: 18px;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 670px) {
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+
+    .wavy span {
+        font-size: 1.5rem;
+    }
+
+    .wavy .space {
+        width: 10px;
+    }
+
+    .testimonials-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .testimonial-logo {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-topic {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+    }
+
+    .price-row {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+
+    .price-column {
+        padding: 15px;
+    }
+
+    .price-column h3 {
+        font-size: 24px;
+    }
+
+    .price-column p {
+        font-size: 18px;
+    }
+
+    .price-column ul li {
+        font-size: 14px;
+    }
+
+    .price-column button {
+        font-size: 14px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer h4 {
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .footer .card input[type="email"] {
+        padding: 10px;
+    }
+
+    .footer .card button {
+        font-size: 14px;
+    }
+
+    .footer .social-icons i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer h4 {
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer .card input[type="email"] {
+        padding: 10px;
+    }
+
+    .footer .card button {
+        font-size: 14px;
+    }
+
+    .footer .social-icons i {
+        font-size: 16px;
+    }
+}
+.text-xl {
+    font-size: 3rem; 
+    font-weight: 600;
+}
